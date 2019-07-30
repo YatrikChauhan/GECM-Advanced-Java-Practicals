@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.yatrik.Laptop" table="laptop">
+		<id name="Lid" column="lid">
+		</id>
+		<property name="lname" column="lname"></property>
+	</class>
+	<class name="com.yatrik.Student" table="Student">
+		<id name="Sid" column="sid">
+		</id>
+		<property name="name" column="Sname"></property>
+
+	</class>
+</hibernate-mapping>
